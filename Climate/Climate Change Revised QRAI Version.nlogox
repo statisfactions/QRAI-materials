@@ -1093,4 +1093,42 @@ To inquire about commercial licenses for either NetLogo or specific models from 
     </shape>
   </linkShapes>
   <previewCommands>setup add-cloud add-cloud add-cloud repeat 800 [ go ]</previewCommands>
+  <experiments>
+    <experiment name="co2-125" repetitions="20" sequentialRunOrder="true" runMetricsEveryStep="false" timeLimit="10000">
+      <setup>setup</setup>
+      <go>go</go>
+      <metrics>
+        <metric>temperature</metric>
+      </metrics>
+      <constants>
+        <enumeratedValueSet variable="co2-amount">
+          <value value="125"></value>
+        </enumeratedValueSet>
+        <enumeratedValueSet variable="sun-brightness">
+          <value value="1"></value>
+        </enumeratedValueSet>
+        <enumeratedValueSet variable="albedo">
+          <value value="0.6"></value>
+        </enumeratedValueSet>
+      </constants>
+    </experiment>
+    <experiment name="co2-250" repetitions="20" sequentialRunOrder="true" runMetricsEveryStep="false" timeLimit="10000">
+      <setup>setup</setup>
+      <go>go</go>
+      <metrics>
+        <metric>temperature</metric>
+      </metrics>
+      <constants>
+        <enumeratedValueSet variable="co2-amount">
+          <value value="250"></value>
+        </enumeratedValueSet>
+        <enumeratedValueSet variable="sun-brightness">
+          <value value="1"></value>
+        </enumeratedValueSet>
+        <enumeratedValueSet variable="albedo">
+          <value value="0.6"></value>
+        </enumeratedValueSet>
+      </constants>
+    </experiment>
+  </experiments>
 </model>
