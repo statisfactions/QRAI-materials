@@ -47,7 +47,7 @@ The course has three units. Most classes run on one worksheet, worked in groups 
 | 9.1 | Regression | `WS 9.1 Regression.ipynb` |
 | Project | Quant Project | `Quant Project Notebook.ipynb` |
 
-The `.csv` files are NetLogo BehaviorSpace output the worksheets load, and `Climate Change Revised QRAI Version.nlogox` is the climate model. The two `WS 6.2 Variation - EVEN/ODD Groups` notebooks are the Spring 2026 version of 6.2, kept because old links point to them.
+The `.csv` files are NetLogo BehaviorSpace output the worksheets load, and `Climate Change Revised QRAI Version.nlogox` is the climate model. The two `WS 6.2 Variation - EVEN/ODD Groups` notebooks are the Spring 2026 version of 6.2 and are no longer used.
 
 ### Machine Learning Unit (`ML/`), weeks 10 to 15
 
